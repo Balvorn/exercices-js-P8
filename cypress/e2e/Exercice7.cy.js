@@ -2,7 +2,7 @@ describe('Validations Exercice 7: ', () => {
     beforeEach(() => {
         cy.visit("/Exercice7");
     })
-    describe('Exercice 6 Validation', () => {
+    describe('Exercice 7 Validation', () => {
         it('Returns \'1010\' on converting 10', () => {
             cy.get("input").type('10');
             cy.contains('Convertir').click()
